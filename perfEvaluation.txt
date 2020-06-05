@@ -1,0 +1,312 @@
+Detector Type: SHITOMASI Descriptor Type: BRISK
+
+TASK.8.9: Image Number :1 has ,95, MatchedKeypointsand took ,340.088, ms
+TASK.8.9: Image Number :2 has ,88, MatchedKeypointsand took ,293.663, ms
+TASK.8.9: Image Number :3 has ,80, MatchedKeypointsand took ,286.126, ms
+TASK.8.9: Image Number :4 has ,90, MatchedKeypointsand took ,297.432, ms
+TASK.8.9: Image Number :5 has ,82, MatchedKeypointsand took ,279.191, ms
+TASK.8.9: Image Number :6 has ,79, MatchedKeypointsand took ,282.954, ms
+TASK.8.9: Image Number :7 has ,85, MatchedKeypointsand took ,270.529, ms
+TASK.8.9: Image Number :8 has ,86, MatchedKeypointsand took ,271.111, ms
+TASK.8.9: Image Number :9 has ,82, MatchedKeypointsand took ,271.61, ms
+Average Time: 259.27 Average Matched Keypoints: 85.2222
+
+Detector Type: SHITOMASI Descriptor Type: BRIEF
+
+TASK.8.9: Image Number :1 has ,115, MatchedKeypointsand took ,79.5363, ms
+TASK.8.9: Image Number :2 has ,111, MatchedKeypointsand took ,23.8839, ms
+TASK.8.9: Image Number :3 has ,104, MatchedKeypointsand took ,52.569, ms
+TASK.8.9: Image Number :4 has ,101, MatchedKeypointsand took ,43.1381, ms
+TASK.8.9: Image Number :5 has ,102, MatchedKeypointsand took ,32.6436, ms
+TASK.8.9: Image Number :6 has ,102, MatchedKeypointsand took ,20.0785, ms
+TASK.8.9: Image Number :7 has ,100, MatchedKeypointsand took ,32.7701, ms
+TASK.8.9: Image Number :8 has ,109, MatchedKeypointsand took ,37.1383, ms
+TASK.8.9: Image Number :9 has ,100, MatchedKeypointsand took ,31.1362, ms
+Average Time: 35.2894 Average Matched Keypoints: 104.889
+
+Detector Type: SHITOMASI Descriptor Type: ORB
+
+TASK.8.9: Image Number :1 has ,104, MatchedKeypointsand took ,41.941, ms
+TASK.8.9: Image Number :2 has ,103, MatchedKeypointsand took ,41.9735, ms
+TASK.8.9: Image Number :3 has ,100, MatchedKeypointsand took ,38.5889, ms
+TASK.8.9: Image Number :4 has ,102, MatchedKeypointsand took ,82.4969, ms
+TASK.8.9: Image Number :5 has ,103, MatchedKeypointsand took ,44.1091, ms
+TASK.8.9: Image Number :6 has ,98, MatchedKeypointsand took ,41.2534, ms
+TASK.8.9: Image Number :7 has ,98, MatchedKeypointsand took ,25.897, ms
+TASK.8.9: Image Number :8 has ,102, MatchedKeypointsand took ,37.1433, ms
+TASK.8.9: Image Number :9 has ,97, MatchedKeypointsand took ,31.0644, ms
+Average Time: 38.4467 Average Matched Keypoints: 100.778
+
+Detector Type: SHITOMASI Descriptor Type: FREAK
+
+TASK.8.9: Image Number :1 has ,90, MatchedKeypointsand took ,98.2027, ms
+TASK.8.9: Image Number :2 has ,88, MatchedKeypointsand took ,86.4659, ms
+TASK.8.9: Image Number :3 has ,87, MatchedKeypointsand took ,74.3009, ms
+TASK.8.9: Image Number :4 has ,89, MatchedKeypointsand took ,70.9801, ms
+TASK.8.9: Image Number :5 has ,83, MatchedKeypointsand took ,70.5856, ms
+TASK.8.9: Image Number :6 has ,78, MatchedKeypointsand took ,65.5378, ms
+TASK.8.9: Image Number :7 has ,81, MatchedKeypointsand took ,81.0016, ms
+TASK.8.9: Image Number :8 has ,86, MatchedKeypointsand took ,85.0228, ms
+TASK.8.9: Image Number :9 has ,84, MatchedKeypointsand took ,90.4839, ms
+Average Time: 72.2581 Average Matched Keypoints: 85.1111
+
+Detector Type: HARRIS Descriptor Type: BRISK
+
+TASK.8.9: Image Number :1 has ,12, MatchedKeypointsand took ,382.421, ms
+TASK.8.9: Image Number :2 has ,10, MatchedKeypointsand took ,350.791, ms
+TASK.8.9: Image Number :3 has ,14, MatchedKeypointsand took ,299.673, ms
+TASK.8.9: Image Number :4 has ,15, MatchedKeypointsand took ,279.235, ms
+TASK.8.9: Image Number :5 has ,16, MatchedKeypointsand took ,278.78, ms
+TASK.8.9: Image Number :6 has ,16, MatchedKeypointsand took ,308.277, ms
+TASK.8.9: Image Number :7 has ,15, MatchedKeypointsand took ,323.871, ms
+TASK.8.9: Image Number :8 has ,23, MatchedKeypointsand took ,326.759, ms
+TASK.8.9: Image Number :9 has ,21, MatchedKeypointsand took ,288.689, ms
+Average Time: 283.85 Average Matched Keypoints: 15.7778
+
+Detector Type: HARRIS Descriptor Type: BRIEF
+
+TASK.8.9: Image Number :1 has ,14, MatchedKeypointsand took ,29.4043, ms
+TASK.8.9: Image Number :2 has ,11, MatchedKeypointsand took ,31.8272, ms
+TASK.8.9: Image Number :3 has ,15, MatchedKeypointsand took ,31.0096, ms
+TASK.8.9: Image Number :4 has ,20, MatchedKeypointsand took ,32.7828, ms
+TASK.8.9: Image Number :5 has ,24, MatchedKeypointsand took ,34.6719, ms
+TASK.8.9: Image Number :6 has ,26, MatchedKeypointsand took ,67.9984, ms
+TASK.8.9: Image Number :7 has ,16, MatchedKeypointsand took ,22.8533, ms
+TASK.8.9: Image Number :8 has ,24, MatchedKeypointsand took ,24.8681, ms
+TASK.8.9: Image Number :9 has ,23, MatchedKeypointsand took ,22.4579, ms
+Average Time: 29.7874 Average Matched Keypoints: 19.2222
+
+Detector Type: HARRIS Descriptor Type: ORB
+
+TASK.8.9: Image Number :1 has ,12, MatchedKeypointsand took ,76.0292, ms
+TASK.8.9: Image Number :2 has ,13, MatchedKeypointsand took ,44.6668, ms
+TASK.8.9: Image Number :3 has ,16, MatchedKeypointsand took ,28.4995, ms
+TASK.8.9: Image Number :4 has ,18, MatchedKeypointsand took ,49.2962, ms
+TASK.8.9: Image Number :5 has ,24, MatchedKeypointsand took ,42.3138, ms
+TASK.8.9: Image Number :6 has ,18, MatchedKeypointsand took ,53.3436, ms
+TASK.8.9: Image Number :7 has ,15, MatchedKeypointsand took ,39.7941, ms
+TASK.8.9: Image Number :8 has ,24, MatchedKeypointsand took ,35.5671, ms
+TASK.8.9: Image Number :9 has ,20, MatchedKeypointsand took ,33.2085, ms
+Average Time: 40.2719 Average Matched Keypoints: 17.7778
+
+Detector Type: HARRIS Descriptor Type: FREAK
+
+TASK.8.9: Image Number :1 has ,13, MatchedKeypointsand took ,68.4011, ms
+TASK.8.9: Image Number :2 has ,13, MatchedKeypointsand took ,61.9959, ms
+TASK.8.9: Image Number :3 has ,15, MatchedKeypointsand took ,93.1856, ms
+TASK.8.9: Image Number :4 has ,15, MatchedKeypointsand took ,72.1231, ms
+TASK.8.9: Image Number :5 has ,17, MatchedKeypointsand took ,59.5554, ms
+TASK.8.9: Image Number :6 has ,20, MatchedKeypointsand took ,137.793, ms
+TASK.8.9: Image Number :7 has ,14, MatchedKeypointsand took ,79.0585, ms
+TASK.8.9: Image Number :8 has ,21, MatchedKeypointsand took ,88.5037, ms
+TASK.8.9: Image Number :9 has ,18, MatchedKeypointsand took ,69.1209, ms
+Average Time: 72.9737 Average Matched Keypoints: 16.2222
+
+Detector Type: FAST Descriptor Type: BRISK
+
+TASK.8.9: Image Number :1 has ,97, MatchedKeypointsand took ,306.251, ms
+TASK.8.9: Image Number :2 has ,104, MatchedKeypointsand took ,283.13, ms
+TASK.8.9: Image Number :3 has ,101, MatchedKeypointsand took ,290.574, ms
+TASK.8.9: Image Number :4 has ,98, MatchedKeypointsand took ,281.97, ms
+TASK.8.9: Image Number :5 has ,85, MatchedKeypointsand took ,250.993, ms
+TASK.8.9: Image Number :6 has ,107, MatchedKeypointsand took ,251.835, ms
+TASK.8.9: Image Number :7 has ,107, MatchedKeypointsand took ,253.019, ms
+TASK.8.9: Image Number :8 has ,100, MatchedKeypointsand took ,257.846, ms
+TASK.8.9: Image Number :9 has ,100, MatchedKeypointsand took ,247.815, ms
+Average Time: 242.343 Average Matched Keypoints: 99.8889
+
+Detector Type: FAST Descriptor Type: BRIEF
+
+TASK.8.9: Image Number :1 has ,119, MatchedKeypointsand took ,7.29031, ms
+TASK.8.9: Image Number :2 has ,130, MatchedKeypointsand took ,2.62718, ms
+TASK.8.9: Image Number :3 has ,118, MatchedKeypointsand took ,3.19989, ms
+TASK.8.9: Image Number :4 has ,126, MatchedKeypointsand took ,1.81641, ms
+TASK.8.9: Image Number :5 has ,108, MatchedKeypointsand took ,2.04222, ms
+TASK.8.9: Image Number :6 has ,123, MatchedKeypointsand took ,1.91224, ms
+TASK.8.9: Image Number :7 has ,131, MatchedKeypointsand took ,2.74111, ms
+TASK.8.9: Image Number :8 has ,125, MatchedKeypointsand took ,1.9627, ms
+TASK.8.9: Image Number :9 has ,119, MatchedKeypointsand took ,2.02074, ms
+Average Time: 2.56128 Average Matched Keypoints: 122.111
+
+Detector Type: FAST Descriptor Type: ORB
+
+TASK.8.9: Image Number :1 has ,122, MatchedKeypointsand took ,9.31853, ms
+TASK.8.9: Image Number :2 has ,122, MatchedKeypointsand took ,6.51311, ms
+TASK.8.9: Image Number :3 has ,115, MatchedKeypointsand took ,4.23705, ms
+TASK.8.9: Image Number :4 has ,129, MatchedKeypointsand took ,4.74248, ms
+TASK.8.9: Image Number :5 has ,107, MatchedKeypointsand took ,4.39206, ms
+TASK.8.9: Image Number :6 has ,120, MatchedKeypointsand took ,4.26733, ms
+TASK.8.9: Image Number :7 has ,126, MatchedKeypointsand took ,14.939, ms
+TASK.8.9: Image Number :8 has ,122, MatchedKeypointsand took ,4.37352, ms
+TASK.8.9: Image Number :9 has ,118, MatchedKeypointsand took ,21.5393, ms
+Average Time: 7.43224 Average Matched Keypoints: 120.111
+
+Detector Type: FAST Descriptor Type: FREAK
+
+TASK.8.9: Image Number :1 has ,97, MatchedKeypointsand took ,65.1271, ms
+TASK.8.9: Image Number :2 has ,98, MatchedKeypointsand took ,52.5676, ms
+TASK.8.9: Image Number :3 has ,94, MatchedKeypointsand took ,43.6612, ms
+TASK.8.9: Image Number :4 has ,99, MatchedKeypointsand took ,66.8213, ms
+TASK.8.9: Image Number :5 has ,88, MatchedKeypointsand took ,61.4003, ms
+TASK.8.9: Image Number :6 has ,99, MatchedKeypointsand took ,50.7368, ms
+TASK.8.9: Image Number :7 has ,104, MatchedKeypointsand took ,38.6469, ms
+TASK.8.9: Image Number :8 has ,99, MatchedKeypointsand took ,53.0256, ms
+TASK.8.9: Image Number :9 has ,103, MatchedKeypointsand took ,48.4644, ms
+Average Time: 48.0451 Average Matched Keypoints: 97.8889
+
+Detector Type: BRISK Descriptor Type: BRISK
+
+TASK.8.9: Image Number :1 has ,151, MatchedKeypointsand took ,557.454, ms
+TASK.8.9: Image Number :2 has ,163, MatchedKeypointsand took ,553.241, ms
+TASK.8.9: Image Number :3 has ,146, MatchedKeypointsand took ,538.713, ms
+TASK.8.9: Image Number :4 has ,173, MatchedKeypointsand took ,558.295, ms
+TASK.8.9: Image Number :5 has ,150, MatchedKeypointsand took ,574.776, ms
+TASK.8.9: Image Number :6 has ,162, MatchedKeypointsand took ,550.864, ms
+TASK.8.9: Image Number :7 has ,182, MatchedKeypointsand took ,534.855, ms
+TASK.8.9: Image Number :8 has ,183, MatchedKeypointsand took ,527.298, ms
+TASK.8.9: Image Number :9 has ,161, MatchedKeypointsand took ,537.628, ms
+Average Time: 493.312 Average Matched Keypoints: 163.444
+
+Detector Type: BRISK Descriptor Type: BRIEF
+
+TASK.8.9: Image Number :1 has ,178, MatchedKeypointsand took ,365.902, ms
+TASK.8.9: Image Number :2 has ,205, MatchedKeypointsand took ,353.054, ms
+TASK.8.9: Image Number :3 has ,185, MatchedKeypointsand took ,350.437, ms
+TASK.8.9: Image Number :4 has ,179, MatchedKeypointsand took ,327.042, ms
+TASK.8.9: Image Number :5 has ,183, MatchedKeypointsand took ,301.018, ms
+TASK.8.9: Image Number :6 has ,195, MatchedKeypointsand took ,302.44, ms
+TASK.8.9: Image Number :7 has ,207, MatchedKeypointsand took ,312.562, ms
+TASK.8.9: Image Number :8 has ,189, MatchedKeypointsand took ,309.921, ms
+TASK.8.9: Image Number :9 has ,183, MatchedKeypointsand took ,303.836, ms
+Average Time: 292.621 Average Matched Keypoints: 189.333
+
+Detector Type: BRISK Descriptor Type: ORB
+
+TASK.8.9: Image Number :1 has ,169, MatchedKeypointsand took ,364.112, ms
+TASK.8.9: Image Number :2 has ,200, MatchedKeypointsand took ,323.047, ms
+TASK.8.9: Image Number :3 has ,176, MatchedKeypointsand took ,373.606, ms
+TASK.8.9: Image Number :4 has ,185, MatchedKeypointsand took ,358.362, ms
+TASK.8.9: Image Number :5 has ,183, MatchedKeypointsand took ,355.655, ms
+TASK.8.9: Image Number :6 has ,182, MatchedKeypointsand took ,302.897, ms
+TASK.8.9: Image Number :7 has ,201, MatchedKeypointsand took ,309.915, ms
+TASK.8.9: Image Number :8 has ,202, MatchedKeypointsand took ,346.308, ms
+TASK.8.9: Image Number :9 has ,181, MatchedKeypointsand took ,322.294, ms
+Average Time: 305.62 Average Matched Keypoints: 186.556
+
+Detector Type: BRISK Descriptor Type: FREAK
+
+TASK.8.9: Image Number :1 has ,142, MatchedKeypointsand took ,433.944, ms
+TASK.8.9: Image Number :2 has ,160, MatchedKeypointsand took ,344.689, ms
+TASK.8.9: Image Number :3 has ,146, MatchedKeypointsand took ,325.945, ms
+TASK.8.9: Image Number :4 has ,164, MatchedKeypointsand took ,422.047, ms
+TASK.8.9: Image Number :5 has ,148, MatchedKeypointsand took ,354.352, ms
+TASK.8.9: Image Number :6 has ,176, MatchedKeypointsand took ,337.217, ms
+TASK.8.9: Image Number :7 has ,177, MatchedKeypointsand took ,398.179, ms
+TASK.8.9: Image Number :8 has ,176, MatchedKeypointsand took ,332.374, ms
+TASK.8.9: Image Number :9 has ,168, MatchedKeypointsand took ,331.93, ms
+Average Time: 328.068 Average Matched Keypoints: 161.889
+
+Detector Type: ORB Descriptor Type: BRISK
+
+TASK.8.9: Image Number :1 has ,48, MatchedKeypointsand took ,369.487, ms
+TASK.8.9: Image Number :2 has ,46, MatchedKeypointsand took ,305.492, ms
+TASK.8.9: Image Number :3 has ,57, MatchedKeypointsand took ,314.921, ms
+TASK.8.9: Image Number :4 has ,61, MatchedKeypointsand took ,271.693, ms
+TASK.8.9: Image Number :5 has ,56, MatchedKeypointsand took ,257.132, ms
+TASK.8.9: Image Number :6 has ,68, MatchedKeypointsand took ,250.273, ms
+TASK.8.9: Image Number :7 has ,64, MatchedKeypointsand took ,249.147, ms
+TASK.8.9: Image Number :8 has ,80, MatchedKeypointsand took ,270.966, ms
+TASK.8.9: Image Number :9 has ,73, MatchedKeypointsand took ,254.603, ms
+Average Time: 254.371 Average Matched Keypoints: 61.4444
+
+Detector Type: ORB Descriptor Type: BRIEF
+
+TASK.8.9: Image Number :1 has ,49, MatchedKeypointsand took ,14.2028, ms
+TASK.8.9: Image Number :2 has ,43, MatchedKeypointsand took ,10.4927, ms
+TASK.8.9: Image Number :3 has ,45, MatchedKeypointsand took ,30.0446, ms
+TASK.8.9: Image Number :4 has ,59, MatchedKeypointsand took ,9.03639, ms
+TASK.8.9: Image Number :5 has ,53, MatchedKeypointsand took ,25.473, ms
+TASK.8.9: Image Number :6 has ,78, MatchedKeypointsand took ,28.6538, ms
+TASK.8.9: Image Number :7 has ,68, MatchedKeypointsand took ,24.551, ms
+TASK.8.9: Image Number :8 has ,84, MatchedKeypointsand took ,17.1265, ms
+TASK.8.9: Image Number :9 has ,66, MatchedKeypointsand took ,9.5542, ms
+Average Time: 16.9135 Average Matched Keypoints: 60.5556
+
+Detector Type: ORB Descriptor Type: ORB
+
+TASK.8.9: Image Number :1 has ,51, MatchedKeypointsand took ,15.8974, ms
+TASK.8.9: Image Number :2 has ,52, MatchedKeypointsand took ,19.2249, ms
+TASK.8.9: Image Number :3 has ,59, MatchedKeypointsand took ,15.7291, ms
+TASK.8.9: Image Number :4 has ,61, MatchedKeypointsand took ,20.9848, ms
+TASK.8.9: Image Number :5 has ,56, MatchedKeypointsand took ,15.5733, ms
+TASK.8.9: Image Number :6 has ,79, MatchedKeypointsand took ,14.6699, ms
+TASK.8.9: Image Number :7 has ,64, MatchedKeypointsand took ,32.7523, ms
+TASK.8.9: Image Number :8 has ,82, MatchedKeypointsand took ,24.7979, ms
+TASK.8.9: Image Number :9 has ,71, MatchedKeypointsand took ,18.3973, ms
+Average Time: 17.8027 Average Matched Keypoints: 63.8889
+
+Detector Type: ORB Descriptor Type: FREAK
+
+TASK.8.9: Image Number :1 has ,41, MatchedKeypointsand took ,74.3715, ms
+TASK.8.9: Image Number :2 has ,42, MatchedKeypointsand took ,80.0917, ms
+TASK.8.9: Image Number :3 has ,56, MatchedKeypointsand took ,57.9956, ms
+TASK.8.9: Image Number :4 has ,52, MatchedKeypointsand took ,66.817, ms
+TASK.8.9: Image Number :5 has ,57, MatchedKeypointsand took ,58.5839, ms
+TASK.8.9: Image Number :6 has ,64, MatchedKeypointsand took ,50.4308, ms
+TASK.8.9: Image Number :7 has ,56, MatchedKeypointsand took ,75.3863, ms
+TASK.8.9: Image Number :8 has ,76, MatchedKeypointsand took ,61.1015, ms
+TASK.8.9: Image Number :9 has ,66, MatchedKeypointsand took ,60.0654, ms
+Average Time: 58.4844 Average Matched Keypoints: 56.6667
+
+Detector Type: AKAZE Descriptor Type: BRISK
+
+TASK.8.9: Image Number :1 has ,135, MatchedKeypointsand took ,418.029, ms
+TASK.8.9: Image Number :2 has ,121, MatchedKeypointsand took ,518.165, ms
+TASK.8.9: Image Number :3 has ,128, MatchedKeypointsand took ,486.611, ms
+TASK.8.9: Image Number :4 has ,126, MatchedKeypointsand took ,488.647, ms
+TASK.8.9: Image Number :5 has ,126, MatchedKeypointsand took ,424.816, ms
+TASK.8.9: Image Number :6 has ,133, MatchedKeypointsand took ,421.763, ms
+TASK.8.9: Image Number :7 has ,137, MatchedKeypointsand took ,398.854, ms
+TASK.8.9: Image Number :8 has ,144, MatchedKeypointsand took ,424.707, ms
+TASK.8.9: Image Number :9 has ,143, MatchedKeypointsand took ,391.518, ms
+Average Time: 397.311 Average Matched Keypoints: 132.556
+
+Detector Type: AKAZE Descriptor Type: BRIEF
+
+TASK.8.9: Image Number :1 has ,141, MatchedKeypointsand took ,251.082, ms
+TASK.8.9: Image Number :2 has ,134, MatchedKeypointsand took ,225.182, ms
+TASK.8.9: Image Number :3 has ,131, MatchedKeypointsand took ,174.633, ms
+TASK.8.9: Image Number :4 has ,130, MatchedKeypointsand took ,186.496, ms
+TASK.8.9: Image Number :5 has ,134, MatchedKeypointsand took ,179.166, ms
+TASK.8.9: Image Number :6 has ,146, MatchedKeypointsand took ,206.188, ms
+TASK.8.9: Image Number :7 has ,150, MatchedKeypointsand took ,225.309, ms
+TASK.8.9: Image Number :8 has ,148, MatchedKeypointsand took ,237.363, ms
+TASK.8.9: Image Number :9 has ,152, MatchedKeypointsand took ,163.865, ms
+Average Time: 184.928 Average Matched Keypoints: 140.667
+
+Detector Type: AKAZE Descriptor Type: ORB
+
+TASK.8.9: Image Number :1 has ,143, MatchedKeypointsand took ,221.007, ms
+TASK.8.9: Image Number :2 has ,133, MatchedKeypointsand took ,200.658, ms
+TASK.8.9: Image Number :3 has ,129, MatchedKeypointsand took ,146.446, ms
+TASK.8.9: Image Number :4 has ,124, MatchedKeypointsand took ,214.057, ms
+TASK.8.9: Image Number :5 has ,139, MatchedKeypointsand took ,218.168, ms
+TASK.8.9: Image Number :6 has ,144, MatchedKeypointsand took ,224.452, ms
+TASK.8.9: Image Number :7 has ,147, MatchedKeypointsand took ,223.68, ms
+TASK.8.9: Image Number :8 has ,156, MatchedKeypointsand took ,180.432, ms
+TASK.8.9: Image Number :9 has ,149, MatchedKeypointsand took ,152.69, ms
+Average Time: 178.159 Average Matched Keypoints: 140.444
+
+Detector Type: AKAZE Descriptor Type: FREAK
+
+TASK.8.9: Image Number :1 has ,126, MatchedKeypointsand took ,290.409, ms
+TASK.8.9: Image Number :2 has ,126, MatchedKeypointsand took ,192.052, ms
+TASK.8.9: Image Number :3 has ,131, MatchedKeypointsand took ,196.197, ms
+TASK.8.9: Image Number :4 has ,116, MatchedKeypointsand took ,216.925, ms
+TASK.8.9: Image Number :5 has ,125, MatchedKeypointsand took ,221.542, ms
+TASK.8.9: Image Number :6 has ,128, MatchedKeypointsand took ,218.284, ms
+TASK.8.9: Image Number :7 has ,147, MatchedKeypointsand took ,214.459, ms
+TASK.8.9: Image Number :8 has ,145, MatchedKeypointsand took ,187.683, ms
+TASK.8.9: Image Number :9 has ,135, MatchedKeypointsand took ,167.913, ms
+Average Time: 190.546 Average Matched Keypoints: 131
+
