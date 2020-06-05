@@ -23,6 +23,26 @@ int main(int argc, const char *argv[])
 {
 
     /* INIT VARIABLES AND DATA STRUCTURES */
+    string detectorType = "SHITOMASI";    // HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
+    string descriptorType = "BRISK";      // BRIEF, ORB, FREAK, AKAZE, SIFT
+   
+    if(argc == 1)
+    {
+        detectorType = "SHITOMASI";
+        descriptorType = "BRISK";
+    }
+    else if(argc == 2)
+    {
+        detectorType = argv[1];
+    }
+    else
+    {
+        detectorType = argv[1];
+        descriptorType = argv[2];
+    }
+    
+    
+    
 
     // data location
     string dataPath = "../";
@@ -39,7 +59,10 @@ int main(int argc, const char *argv[])
     int dataBufferSize = 2;       // no. of images which are held in memory (ring buffer) at the same time
     vector<DataFrame> dataBuffer; // list of data frames which are held in memory at the same time
     bool bVis = false;            // visualize results
-
+    vector<double> vkptsFocus; // to collect the kepoints no. on the preceding vehicle in the 10 images
+    vector<double> vkptsMatched; // to collect the matched kepoints no. on the preceding vehicle in the 10 images
+    vector<double> timeDetDesc; // to collect the time for detection and descriptor extraction for kepoints on the preceding vehicle in the 10 images
+    double t;
     /* MAIN LOOP OVER ALL IMAGES */
 
     for (size_t imgIndex = 0; imgIndex <= imgEndIndex - imgStartIndex; imgIndex++)
@@ -59,6 +82,10 @@ int main(int argc, const char *argv[])
         //// STUDENT ASSIGNMENT
         //// TASK MP.1 -> replace the following code with ring buffer of size dataBufferSize
 
+        if(dataBuffer.size() == dataBufferSize)
+        {
+            dataBuffer.erase(dataBuffer.begin()); // Remove the old image from the buffer
+        }
         // push image into data frame buffer
         DataFrame frame;
         frame.cameraImg = imgGray;
@@ -71,19 +98,24 @@ int main(int argc, const char *argv[])
 
         // extract 2D keypoints from current image
         vector<cv::KeyPoint> keypoints; // create empty feature list for current image
-        string detectorType = "SHITOMASI";
+        //string detectorType = "SHITOMASI";
 
         //// STUDENT ASSIGNMENT
         //// TASK MP.2 -> add the following keypoint detectors in file matching2D.cpp and enable string-based selection based on detectorType
         //// -> HARRIS, FAST, BRISK, ORB, AKAZE, SIFT
-
+        t = (double)cv::getTickCount();
+        bool bVis = false;
         if (detectorType.compare("SHITOMASI") == 0)
         {
-            detKeypointsShiTomasi(keypoints, imgGray, false);
+            detKeypointsShiTomasi(keypoints, imgGray, bVis);
+        }
+        else if (detectorType.compare("HARRIS") == 0)
+        {
+            detKeypointsHarris(keypoints, imgGray, bVis);
         }
         else
         {
-            //...
+            detKeypointsModern(keypoints, imgGray, detectorType, bVis);
         }
         //// EOF STUDENT ASSIGNMENT
 
@@ -95,7 +127,22 @@ int main(int argc, const char *argv[])
         cv::Rect vehicleRect(535, 180, 180, 150);
         if (bFocusOnVehicle)
         {
-            // ...
+            double kptsTotal = keypoints.size();
+            vector<cv::KeyPoint> keypointsFocus; 
+            for(auto it=keypoints.begin();it!=keypoints.end();++it)
+            {
+                if(vehicleRect.contains((*it).pt) )
+                {
+                    cv::KeyPoint newKeyPoint;
+                    newKeyPoint.pt = cv::Point2f((*it).pt);
+                    newKeyPoint.size = 1;
+                    keypointsFocus.push_back(newKeyPoint);
+                }
+            }
+            keypoints = keypointsFocus;
+            double kptsFocus = keypoints.size();
+            cout<< "TASK MP.7: Original Keypoints: " << kptsTotal << " and after focusing on Preceding vehicle became " << kptsFocus << " Keypoints" << endl; 
+            vkptsFocus.push_back(kptsFocus);
         }
 
         //// EOF STUDENT ASSIGNMENT
@@ -125,13 +172,14 @@ int main(int argc, const char *argv[])
         //// -> BRIEF, ORB, FREAK, AKAZE, SIFT
 
         cv::Mat descriptors;
-        string descriptorType = "BRISK"; // BRIEF, ORB, FREAK, AKAZE, SIFT
+        //string descriptorType = "BRISK"; // BRIEF, ORB, FREAK, AKAZE, SIFT
         descKeypoints((dataBuffer.end() - 1)->keypoints, (dataBuffer.end() - 1)->cameraImg, descriptors, descriptorType);
         //// EOF STUDENT ASSIGNMENT
 
         // push descriptors for current frame to end of data buffer
         (dataBuffer.end() - 1)->descriptors = descriptors;
-
+        t = ((double)cv::getTickCount() - t) / cv::getTickFrequency();
+        timeDetDesc.push_back(t);
         cout << "#3 : EXTRACT DESCRIPTORS done" << endl;
 
         if (dataBuffer.size() > 1) // wait until at least two images have been processed
@@ -142,7 +190,7 @@ int main(int argc, const char *argv[])
             vector<cv::DMatch> matches;
             string matcherType = "MAT_BF";        // MAT_BF, MAT_FLANN
             string descriptorType = "DES_BINARY"; // DES_BINARY, DES_HOG
-            string selectorType = "SEL_NN";       // SEL_NN, SEL_KNN
+            string selectorType = "SEL_KNN";       // SEL_NN, SEL_KNN
 
             //// STUDENT ASSIGNMENT
             //// TASK MP.5 -> add FLANN matching in file matching2D.cpp
@@ -158,9 +206,10 @@ int main(int argc, const char *argv[])
             (dataBuffer.end() - 1)->kptMatches = matches;
 
             cout << "#4 : MATCH KEYPOINT DESCRIPTORS done" << endl;
-
+            cout<< "TASK MP.8: Matched Keypoints: " << matches.size();
+            vkptsMatched.push_back(matches.size());
             // visualize matches between current and previous image
-            bVis = true;
+            bVis = false;
             if (bVis)
             {
                 cv::Mat matchImg = ((dataBuffer.end() - 1)->cameraImg).clone();
@@ -180,6 +229,23 @@ int main(int argc, const char *argv[])
         }
 
     } // eof loop over all images
+     
+     cout << " Total Time: " << 1000 * t / 1.0 << " ms" << endl;
+
+    double avgMatchedKpts = 0;
+    double avgTime = 0;
+    ofstream outfile;
+    outfile.open("../perfEvaluation.txt", fstream::app);
+    outfile << "Detector Type: " << detectorType << " Descriptor Type: " << descriptorType << endl << endl;
+     for(int i = 0; i< vkptsMatched.size();i++)
+     {
+         outfile << "TASK.8.9: Image Number :" << i+1 << " has ," << vkptsMatched[i] << ", MatchedKeypoints" << "and took ," << 1000 * timeDetDesc[i] / 1 << ", ms" << endl;
+         avgMatchedKpts += vkptsMatched[i];
+         avgTime += (1000 * timeDetDesc[i]) / 1;
+     }
+     outfile << "Average Time: " << avgTime / timeDetDesc.size() << " Average Matched Keypoints: " << avgMatchedKpts / vkptsMatched.size() << endl;
+     outfile << endl;
+    outfile.close();
 
     return 0;
 }
